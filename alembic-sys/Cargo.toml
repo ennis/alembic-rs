@@ -1,0 +1,15 @@
+[package]
+name = "alembic-sys"
+version = "0.1.0"
+authors = ["Alexandre Bléron <alex.bleron@gmail.com>"]
+build = "build.rs"
+edition = "2018"
+
+[dependencies]
+libc = "*"
+
+[build-dependencies]
+vcpkg = "0.2.6"
+pkg-config = "0.3.14"
+bindgen = "0.46.0"
+cc = "1.0.28"
